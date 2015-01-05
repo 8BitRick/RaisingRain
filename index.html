@@ -62,7 +62,7 @@
 			else
 				ds_pos = draw_trans(r) # transform from 3D space to drawing space
 				c.fillStyle = "#0000" + decimalToHex(ds_pos.z*20,2) # make closer rects brighter
-				c.fillRect(ds_pos.x, ds_pos.y, 1*ds_pos.z, 8*ds_pos.z) # make closer rects bigger
+				c.fillRect(ds_pos.x, ds_pos.y, 0.5*ds_pos.z, 3*ds_pos.z) # make closer rects bigger
 				r.counter++; r.rate = fall4(r.counter); r.y += r.rate
 				reset_rect(r) if r.y > ra_height
 
