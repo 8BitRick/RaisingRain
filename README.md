@@ -3,6 +3,9 @@ RaisingRain
 
 Rain that falls upward. Experimental drawing using canvas and CoffeeScript.
 
+FiddleSalad link:
+http://fiddlesalad.com/html/raising-rain-in-coffeescript/
+
 This is just some experimenting I am doing.
 The only real files you need are
 * index.html
